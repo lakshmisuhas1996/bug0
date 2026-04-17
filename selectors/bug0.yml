@@ -1,0 +1,14 @@
+# Homepage Elements
+Bug0Logo: "(//a[@href='/'])[1]"
+
+# Navigation
+VoiceAITestingMenu: "(//a[@href='/voice-ai-testing'])[2]"
+ChatAITestingMenu: "(//a[@href='/chat-ai-testing'])[2]"
+ManagedMenu: "(//a[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'managed')])[1]"
+StudioMenu: "(//a[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'studio')])[1]"
+
+# Headings 
+VoiceAITestingHeading: "//h1[not(contains(@class, 'sr-only'))]"
+ChatAITestingHeading: "//h1[not(contains(@class, 'sr-only'))]"
+ManagedHeading: "//h1[not(contains(@class, 'sr-only'))]"
+StudioHeading: "//h1[not(contains(@class, 'sr-only'))]"

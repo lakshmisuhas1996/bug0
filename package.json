@@ -1,0 +1,52 @@
+{
+  "name": "ge-playwright-webapp",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "npm run e2e",
+    "pre:e2e": "sh ./scripts/pre_cleanup.sh",
+    "e2e": "HEADLESS=false cucumber-js --require ./src/steps/**/*.js --require ./hooks.js --format ./custom-rp-formatter.js --format progress-bar",
+    "e2e:parallel": "HEADLESS=false cucumber-js --require ./src/steps/**/*.js --require ./hooks.js --format ./custom-rp-formatter.js --format progress-bar --parallel 4",
+    "e2e:rp-debug": "RP_DEBUG=true HEADLESS=false cucumber-js --require ./src/steps/**/*.js --require ./hooks.js --format ./custom-rp-formatter.js --format progress-bar",
+    "test-rp-config": "node test-rp-config.js",
+    "post:e2e": "sh ./scripts/post_cleanup.sh",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "cucumber": "cucumber-js --require ./hooks.js --require ./src/steps/**/*.js --format message",
+    "cucumber:chrome": "HEADLESS=false cucumber-js --require ./src/steps/**/*.js --require ./hooks.js --tags '@chrome'",
+    "cucumber:chrome:headless": "HEADLESS=true cucumber-js --require ./src/steps/**/*.js --require ./hooks.js --tags '@chrome'",
+    "cucumber:firefox": "HEADLESS=false cucumber-js --require ./src/steps/**/*.js --require ./hooks.js --tags '@firefox'",
+    "cucumber:webkit": "HEADLESS=false cucumber-js --require ./src/steps/**/*.js --require ./hooks.js --tags '@webkit'",
+    "lint": "eslint --ignore-path .eslintignore --ext .js .",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "prettier --ignore-path .gitignore --list-different \"**/*.+(js|json)\"",
+    "prettier:fix": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\"",
+    "cucumber:bounteous": "npm run cucumber -- --tags \"@chrome and @bounteous-004\"", 
+    "cucumber:rp": "cucumber-js --require ./src/steps/**/*.js --require ./hooks.js --format ./custom-rp-formatter.js --format progress-bar",
+    "cucumber:chrome:rp": "HEADLESS=false cucumber-js --require ./src/steps/**/*.js --require ./hooks.js --format ./custom-rp-formatter.js --tags '@chrome'",
+    "cucumber:chrome:rp:parallel": "HEADLESS=false cucumber-js --require ./src/steps/**/*.js --require ./hooks.js --format ./custom-rp-formatter.js --format progress-bar --parallel 5 --tags '@chrome'"
+  },
+  "dependencies": { 
+    "@playwright/test": "^1.40.0",
+    "chai": "4.3.8",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "8.10.0",
+    "@reportportal/agent-js-cucumber": "5.6.1",
+    "@reportportal/agent-js-playwright": "5.3.2",
+    "@reportportal/client-javascript": "5.5.8",
+    "@types/chai": "4.3.6",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.10.0",
+    "dotenv": "17.2.3",
+    "eslint": "8.47.0",
+    "eslint-config-prettier": "9.0.0",
+    "prettier": "3.0.2",
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

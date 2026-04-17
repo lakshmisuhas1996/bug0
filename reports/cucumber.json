@@ -1,0 +1,758 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "home-page;ge-is-accessible",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "ge is accessible",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 998519750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to \"https://www.ge.com/\"",
+            "match": {
+              "location": "src/steps/Given.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8077410499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I wait till the page is fully loaded",
+            "match": {
+              "location": "src/steps/Given.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1932810999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I expect that element \"pageHeading\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43530541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the element \"acceptKeyButton\"",
+            "match": {
+              "location": "src/steps/When.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43872790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I expect that element \"aboutUsText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1871207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I expect that element \"inverstorsPageText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I expect that element \"newsPageText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 919083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I expect that element \"faqsPageText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 905957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I expect that element \"contactPageText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 757375
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 89239042
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@chrome",
+            "line": 1
+          },
+          {
+            "name": "@ge-001",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;about-us-page",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "About us page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 553984708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to \"https://www.ge.com/\"",
+            "match": {
+              "location": "src/steps/Given.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8423810417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I wait till the page is fully loaded",
+            "match": {
+              "location": "src/steps/Given.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2785580707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I click on the element \"aboutUsText\"",
+            "match": {
+              "location": "src/steps/When.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 506359624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I expect that element \"empoyoringText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29187207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I expect that element \"historyButtonAboutUs\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1225582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I go back",
+            "match": {
+              "location": "src/steps/When.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1056773207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I wait till the page is fully loaded",
+            "match": {
+              "location": "src/steps/Given.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 449333
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 84646250
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@chrome",
+            "line": 1
+          },
+          {
+            "name": "@ge-002",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;investors-page",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Investors page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 597403334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to \"https://www.ge.com/\"",
+            "match": {
+              "location": "src/steps/Given.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8374482415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I wait till the page is fully loaded",
+            "match": {
+              "location": "src/steps/Given.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2653669832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I expect that element \"inverstorsPageText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22183542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I click on the element \"inverstorsPageText\"",
+            "match": {
+              "location": "src/steps/When.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 476496874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I wait till the page is fully loaded",
+            "match": {
+              "location": "src/steps/Given.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1731063041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I expect that element \"goingForwardText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11010415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I scroll to element \"footorTagText\"",
+            "match": {
+              "location": "src/steps/When.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41244459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I expect that element \"footorTagText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1749167
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 67970042
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@chrome",
+            "line": 1
+          },
+          {
+            "name": "@ge-003",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page;investors-page",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Investors page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 619051249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to \"https://www.ge.com/\"",
+            "match": {
+              "location": "src/steps/Given.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8871414959
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I wait till the page is fully loaded",
+            "match": {
+              "location": "src/steps/Given.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1800782249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I expect that element \"newsPageText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39372042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I click on the element \"newsPageText\"",
+            "match": {
+              "location": "src/steps/When.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 451222291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "I wait till the page is fully loaded",
+            "match": {
+              "location": "src/steps/Given.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3740524833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I expect that element \"newsForwardText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15531666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "I scroll to element \"footorTagText\"",
+            "match": {
+              "location": "src/steps/When.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22643667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I expect that element \"footorTagText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1047500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 66343999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@chrome",
+            "line": 1
+          },
+          {
+            "name": "@homePage-004",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "home-page",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Home Page",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@chrome",
+        "line": 1
+      }
+    ],
+    "uri": "features/example/homePage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-functionality;verify-contact-page",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify Contact page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 607334999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to \"https://www.ge.com/\"",
+            "match": {
+              "location": "src/steps/Given.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7668694792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I wait till the page is fully loaded",
+            "match": {
+              "location": "src/steps/Given.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2427583040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I expect that element \"pageHeading\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39255540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I expect that element \"contactPageText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1243625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click on the element \"contactPageText\"",
+            "match": {
+              "location": "src/steps/When.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 446049417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I wait till the page is fully loaded",
+            "match": {
+              "location": "src/steps/Given.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 623858249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I scroll to element \"footorTagText\"",
+            "match": {
+              "location": "src/steps/When.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64595708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I expect that element \"footorTagText\" is displayed",
+            "match": {
+              "location": "src/steps/Then.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1369917
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 67680040
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@ge-005",
+            "line": 7
+          },
+          {
+            "name": "@chrome",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Search Functionality",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "features/example/search.feature"
+  }
+]
