@@ -255,8 +255,3 @@ Increase timeout by:
 1. Setting `TIMEOUT` environment variable
 2. Using explicit wait steps in feature files
 3. Modifying timeout in step definitions
-
-## License
-
-[Your License Here]
-
